@@ -60,3 +60,15 @@ docker run -it \
     --table_name=yellow_taxi_data \
     --url=${URL}
 ```
+
+
+# Docker Compose
+
+## Run
+```docker-compose up```
+
+## Run in detached mode
+```docker-compose up -d```
+
+## Shut down
+```docker-compose down```
